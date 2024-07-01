@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: myproj
-        image: Rami/project2
+      - name: apache
+        image: 14ramya91/capstoneproj2
         ports:
         - containerPort: 80
